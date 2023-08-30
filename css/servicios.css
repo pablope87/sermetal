@@ -1,0 +1,93 @@
+/* SERVICIOS */
+
+.titulo-servicios{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    
+}
+
+.diferenciales {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    height: 300px;
+}
+
+.diferenciales__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.diferenciales__item {
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 2rem 0 2rem 6rem;
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+    
+}
+
+.item__titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 1.3;
+    color: black;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    font-size: 16px;
+    width: 90%;
+}
+
+.diferenciales__item-insumos {
+    background-image: url(../img/insumos.png);
+}
+
+.diferenciales__item-montajes {
+    background-image: url(../img/montajes.png);
+}
+
+.diferenciales__item-piping {
+    background-image: url(../img/piping.png);
+}
+
+@media screen and (max-width: 1024px) {
+
+    .diferenciales__lista {
+        justify-content: space-around;
+    }
+
+    .item__titulo{
+        font-size: 20px;
+    }
+
+    .titulo-servicios{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    .item__titulo{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+
+    .diferenciales__item{
+
+padding-right: 25px;
+}
+}

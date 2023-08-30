@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --paddingsecciones: 60px 0;
+    --marginelementos: 40px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+
+
+
+
+
+
+
+

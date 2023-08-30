@@ -1,0 +1,68 @@
+/* SOBRE LA EMPRESA */
+
+.contenedor2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: auto;
+   height: 100%;
+   background-color: rgb(233, 233, 233);
+   padding: 40px;
+   
+   
+
+ }
+
+.contenedor2 h2{
+   font-size: 24px;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+ .contenedor2 p{ 
+   font-size: 16px;
+   width: 80%;
+   color: black;
+   font-family: 'Montserrat', sans-serif;
+   line-height: 40px;
+   text-align: center;
+
+ }
+
+ /* MAPA RESPONSIVO */
+ 
+.mapa-responsivo{
+    
+   overflow:hidden;
+   padding-bottom:28%;
+   position:relative;
+   
+}
+
+.mapa-responsivo iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+} 
+
+@media screen and (max-width: 1500px) {
+
+   .mapa-responsivo{
+      height: 400px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+ 
+   .contenedor2 p{ 
+   width: 100%;
+
+}
+}
+
+
+
